@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="467.45282398673754" y="1645.0">ShareFileGUI</node>
+    <node x="1744.067744955125" y="0.0">SQLConnection</node>
+    <node x="923.5" y="715.5">ClientThread</node>
+    <node x="493.49999999999994" y="702.0">UserInfo</node>
+    <node x="795.3333333333333" y="444.0">SearchResult</node>
+    <node x="0.0" y="1370.0">TransportServer</node>
+    <node x="1014.1671097010233" y="1328.0">Login</node>
+    <node x="561.0" y="0.0">FileShare</node>
+    <node x="956.57362444978" y="1046.5">Register</node>
+    <node x="1557.067744955125" y="0.0">Test</node>
+    <node x="1179.2510782884583" y="486.5">ResultFlag</node>
+    <node x="179.0" y="1005.0">IndividualCenter</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Login" target="ClientThread">
+      <point x="84.875" y="-88.5" />
+      <point x="1196.0421097010233" y="1308.0" />
+      <point x="1255.6510782884584" y="1308.0" />
+      <point x="1255.6510782884584" y="985.0" />
+      <point x="1241.125" y="985.0" />
+      <point x="86.625" y="103.0" />
+    </edge>
+    <edge source="ShareFileGUI" target="ClientThread">
+      <point x="110.58823529411768" y="-158.5" />
+      <point x="813.0410592808553" y="1585.0" />
+      <point x="1266.6510782884584" y="1585.0" />
+      <point x="1266.6510782884584" y="975.0" />
+      <point x="1298.875" y="975.0" />
+      <point x="144.375" y="103.0" />
+    </edge>
+    <edge source="ShareFileGUI" target="Login">
+      <point x="55.29411764705878" y="-158.5" />
+      <point x="757.7469416337963" y="1565.0" />
+      <point x="1149.9671097010232" y="1565.0" />
+      <point x="38.799999999999955" y="88.5" />
+    </edge>
+    <edge source="ShareFileGUI" target="TransportServer">
+      <point x="-221.1764705882352" y="-158.5" />
+      <point x="481.27635339850235" y="1625.0" />
+      <point x="35.75" y="1625.0" />
+      <point x="-107.25" y="46.5" />
+    </edge>
+    <edge source="ShareFileGUI" target="SearchResult">
+      <point x="193.52941176470586" y="-158.5" />
+      <point x="895.9822357514433" y="1615.0" />
+      <point x="1407.0" y="1615.0" />
+      <point x="1407.0" y="642.0" />
+      <point x="1105.1666666666667" y="642.0" />
+      <point x="140.83333333333348" y="89.0" />
+    </edge>
+    <edge source="ClientThread" target="SearchResult">
+      <point x="-184.79999999999995" y="-103.0" />
+      <point x="969.7" y="682.0" />
+      <point x="936.1666666666666" y="682.0" />
+      <point x="-28.16666666666663" y="89.0" />
+    </edge>
+    <edge source="ShareFileGUI" target="FileShare">
+      <point x="221.17647058823536" y="-158.5" />
+      <point x="923.6292945749728" y="1625.0" />
+      <point x="1476.067744955125" y="1625.0" />
+      <point x="1476.067744955125" y="394.0" />
+      <point x="1220.3" y="394.0" />
+      <point x="312.29999999999995" y="187.0" />
+    </edge>
+    <edge source="Login" target="ShareFileGUI">
+      <point x="77.60000000000014" y="88.5" />
+      <point x="1188.7671097010234" y="1575.0" />
+      <point x="785.3940004573258" y="1575.0" />
+      <point x="82.94117647058829" y="-158.5" />
+    </edge>
+    <edge source="IndividualCenter" target="ShareFileGUI">
+      <point x="62.25" y="116.5" />
+      <point x="490.24999999999994" y="1575.0" />
+      <point x="619.5116475161492" y="1575.0" />
+      <point x="-82.94117647058829" y="-158.5" />
+    </edge>
+    <edge source="ClientThread" target="FileShare">
+      <point x="184.79999999999995" y="-103.0" />
+      <point x="1339.3" y="682.0" />
+      <point x="1398.7510782884583" y="682.0" />
+      <point x="1398.7510782884583" y="404.0" />
+      <point x="1150.8999999999999" y="404.0" />
+      <point x="242.89999999999986" y="187.0" />
+    </edge>
+    <edge source="IndividualCenter" target="ClientThread">
+      <point x="217.875" y="-116.5" />
+      <point x="645.875" y="985.0" />
+      <point x="1010.125" y="985.0" />
+      <point x="-144.375" y="103.0" />
+    </edge>
+    <edge source="Register" target="Login">
+      <point x="89.24999999999997" y="75.0" />
+      <point x="1164.82362444978" y="1308.0" />
+      <point x="1147.5421097010233" y="1308.0" />
+      <point x="36.375" y="-88.5" />
+    </edge>
+    <edge source="Register" target="UserInfo">
+      <point x="-79.33333333333326" y="-75.0" />
+      <point x="996.2402911164468" y="965.0" />
+      <point x="874.2142857142858" y="965.0" />
+      <point x="175.71428571428578" y="116.5" />
+    </edge>
+    <edge source="TransportServer" target="FileShare">
+      <point x="71.5" y="-46.5" />
+      <point x="214.5" y="1308.0" />
+      <point x="148.5" y="1308.0" />
+      <point x="148.5" y="404.0" />
+      <point x="665.0999999999999" y="404.0" />
+      <point x="-242.89999999999998" y="187.0" />
+    </edge>
+    <edge source="Login" target="UserInfo">
+      <point x="-84.875" y="-88.5" />
+      <point x="1026.2921097010233" y="1308.0" />
+      <point x="764.5945306694107" y="1308.0" />
+      <point x="764.5945306694107" y="965.0" />
+      <point x="757.0714285714287" y="965.0" />
+      <point x="58.57142857142867" y="116.5" />
+    </edge>
+    <edge source="ShareFileGUI" target="ShareFileGUI">
+      <point x="0.0" y="158.5" />
+      <point x="702.4528239867375" y="1982.0" />
+      <point x="447.45282398673754" y="1982.0" />
+      <point x="447.45282398673754" y="1803.5" />
+      <point x="-235.0" y="-0.0" />
+    </edge>
+    <edge source="Login" target="Register">
+      <point x="-36.375" y="-88.5" />
+      <point x="1074.7921097010233" y="1288.0" />
+      <point x="986.32362444978" y="1288.0" />
+      <point x="-89.25" y="75.0" />
+    </edge>
+    <edge source="ShareFileGUI" target="UserInfo">
+      <point x="0.0" y="-158.5" />
+      <point x="702.4528239867375" y="1625.0" />
+      <point x="701.4367196878752" y="1625.0" />
+      <point x="701.4367196878752" y="965.0" />
+      <point x="698.5" y="965.0" />
+      <point x="0.0" y="116.5" />
+    </edge>
+    <edge source="SearchResult" target="FileShare">
+      <point x="-112.66666666666674" y="-89.0" />
+      <point x="851.6666666666665" y="424.0" />
+      <point x="873.3" y="424.0" />
+      <point x="-34.700000000000045" y="187.0" />
+    </edge>
+    <edge source="IndividualCenter" target="IndividualCenter">
+      <point x="-186.75" y="116.5" />
+      <point x="241.25" y="1258.0" />
+      <point x="159.0" y="1258.0" />
+      <point x="159.0" y="1121.5" />
+      <point x="-249.0" y="-0.0" />
+    </edge>
+    <edge source="ClientThread" target="ResultFlag">
+      <point x="0.0" y="-103.0" />
+      <point x="1154.5" y="662.0" />
+      <point x="1278.2510782884583" y="662.0" />
+      <point x="0.0" y="46.5" />
+    </edge>
+    <edge source="Test" target="Test">
+      <point x="-35.5" y="46.0" />
+      <point x="1592.567744955125" y="112.0" />
+      <point x="1537.067744955125" y="112.0" />
+      <point x="1537.067744955125" y="69.0" />
+      <point x="-71.0" y="23.0" />
+    </edge>
+    <edge source="IndividualCenter" target="SearchResult">
+      <point x="-93.375" y="-116.5" />
+      <point x="334.625" y="985.0" />
+      <point x="307.42779111644677" y="985.0" />
+      <point x="307.42779111644677" y="672.0" />
+      <point x="823.4999999999999" y="672.0" />
+      <point x="-140.83333333333337" y="89.0" />
+    </edge>
+    <edge source="IndividualCenter" target="UserInfo">
+      <point x="31.125" y="-116.5" />
+      <point x="459.125" y="955.0" />
+      <point x="522.7857142857142" y="955.0" />
+      <point x="-175.71428571428578" y="116.5" />
+    </edge>
+    <edge source="IndividualCenter" target="FileShare">
+      <point x="-155.625" y="-116.5" />
+      <point x="272.375" y="985.0" />
+      <point x="296.42779111644677" y="985.0" />
+      <point x="296.42779111644677" y="424.0" />
+      <point x="803.8999999999999" y="424.0" />
+      <point x="-104.10000000000002" y="187.0" />
+    </edge>
+    <edge source="Register" target="ClientThread">
+      <point x="79.33333333333326" y="-75.0" />
+      <point x="1154.9069577831133" y="985.0" />
+      <point x="1125.625" y="985.0" />
+      <point x="-28.875" y="103.0" />
+    </edge>
+    <edge source="ShareFileGUI" target="IndividualCenter">
+      <point x="-110.58823529411757" y="-158.5" />
+      <point x="591.8645886926199" y="1585.0" />
+      <point x="423.5161042988623" y="1585.0" />
+      <point x="423.5161042988623" y="1308.0" />
+      <point x="365.75" y="1308.0" />
+      <point x="-62.25" y="116.5" />
+    </edge>
+    <edge source="Login" target="Login">
+      <point x="-38.80000000000001" y="88.5" />
+      <point x="1072.3671097010233" y="1535.0" />
+      <point x="984.1671097010233" y="1535.0" />
+      <point x="984.1671097010233" y="1372.25" />
+      <point x="-97.0" y="-44.25" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6341894060995186" x="302.776765375854" y="1580.8534548215641" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
